@@ -1,0 +1,14 @@
+{
+	"name": "brucep/wp-helper-twig",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4",
+        "twig/twig": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brucep\\WordPress\\TwigHelper\\": "src/"
+        }
+    }
+}
